@@ -76,15 +76,15 @@ export function Clock() {
           </div>
         ))}
         <div
-          className={`absolute left-2/4 bottom-2/4 z-10 h-[25%] w-1 origin-bottom -translate-x-2/4 bg-beta-500 rotate-${
+          className={`absolute left-2/4 bottom-2/4 z-10 h-[25%] w-1 origin-bottom -translate-x-2/4 rounded-t-full bg-beta-500 rotate-${
             (currentDate.getHours() % 12) * 30
           }`}></div>
         <div
-          className={`absolute left-2/4 bottom-2/4 z-10 h-[34%] w-[3px] origin-bottom -translate-x-2/4 bg-gamma-900 rotate-${
+          className={`absolute left-2/4 bottom-2/4 z-10 h-[34%] w-[3px] origin-bottom -translate-x-2/4 rounded-t-full bg-gamma-900 rotate-${
             currentDate.getMinutes() * 6
           }`}></div>
         <div
-          className={`absolute left-2/4 bottom-2/4 z-10 h-[39%] w-[2px] origin-bottom -translate-x-2/4 bg-delta-900 rotate-${
+          className={`absolute left-2/4 bottom-2/4 z-10 h-[39%] w-[2px] origin-bottom -translate-x-2/4 rounded-t-full bg-delta-900 rotate-${
             currentDate.getSeconds() * 6
           }`}></div>
       </div>
