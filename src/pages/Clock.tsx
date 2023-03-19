@@ -60,7 +60,7 @@ export function Clock() {
   }, 1000);
 
   return (
-    <div className="flex flex-col items-center justify-center gap-6">
+    <div className="flex h-full flex-col items-center justify-center gap-6 px-6 py-4 shadow-lg">
       <div className="self-start font-bold text-beta-500">
         {currentDate.toLocaleString().slice(-2)}
       </div>
